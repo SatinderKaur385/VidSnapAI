@@ -1,0 +1,10 @@
+file'1.jpg'
+duration=1
+file'1.jpg'
+duration=1
+file'1.jpg'
+duration=1
+file'1.jpg'
+duration=1
+file'1.jpg'
+duration=1

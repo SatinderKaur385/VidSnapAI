@@ -1,0 +1,11 @@
+file '001_flower_photo.jpg'
+duration 3.604
+file '002_rikonavt-oEWdQsbRVZk-unsplash_1.jpg'
+duration 3.604
+file '003_rose.jpg'
+duration 3.604
+file '004_cat.jpg'
+duration 3.604
+file '005_e7ntxbxe.png'
+duration 3.604
+file '005_e7ntxbxe.png'

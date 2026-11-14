@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}Gallery - VidSnapAI{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/gallery.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="container gallery-container">
+    <h1 class="gallery-title">Reel Gallery</h1>
+    {% if reels %}
+    <div class="gallery-grid">
+        {% for reel in reels %}
+        <div class="gallery-item">
+            <div class="reel-card">
+                <video class="reel-video" controls preload="metadata">
+                    <source src="{{ url_for('reel_file', reel_id=reel.id) }}" type="video/mp4">
+                    Your browser does not support video playback.
+                </video>
+                <div class="reel-info">
+                    <p>{{ reel.description }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <p class="empty-gallery">No reels yet. <a href="{{ url_for('create') }}">Create your first reel</a>.</p>
+    {% endif %}
+</div>
+{% endblock %}

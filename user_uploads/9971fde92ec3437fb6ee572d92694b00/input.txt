@@ -1,0 +1,7 @@
+file '001_rose.jpg'
+duration 2.000
+file '002_flower_photo.jpg'
+duration 2.000
+file '003_pexels-jane-doan-1132047.jpg'
+duration 2.000
+file '003_pexels-jane-doan-1132047.jpg'
